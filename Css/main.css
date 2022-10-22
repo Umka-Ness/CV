@@ -1,0 +1,269 @@
+:root {
+    --color-accent: #FB6D3A;
+    --font-montserrat: 'Montserrat',
+        sans-serif;
+    --all-color-h: #000000;
+    --font-size-small: 14px;
+    --all-color-p: #595959;
+    --color-transparent: #A8A8A8;
+    --color-cont: #ffffff;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.left {
+    background: #1E2939;
+    width: 370px;
+    padding-bottom: 100px;
+}
+
+.right {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 830px;
+    padding-left: 88px;
+    padding-bottom: 100px;
+}
+
+.bg-images {
+    background-image: url(../images/photo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    margin-top: 40px;
+    width: 100%;
+    height: 370px;
+}
+
+.container-cont {
+    padding-left: 40px;
+}
+
+.cont {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: calc(27 / 22);
+
+    margin-bottom: 10px;
+    margin-top: 51px;
+    color: var(--color-cont);
+}
+
+.contacts {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: var(24 / 14);
+
+
+    color: var(--color-cont);
+}
+
+.cont-span {
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 5px;
+}
+
+
+.tel {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+
+    color: var(--color-cont);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    opacity: 0.5;
+}
+
+.tel:hover {
+    color: var(--color-accent);
+    opacity: 1;
+
+}
+
+.hiden {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+
+    margin-left: 20px;
+    list-style-type: disc;
+    color: var(--color-cont);
+}
+
+.hiden::marker {
+    color: var(--color-accent);
+}
+
+.hero-h2 {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size-small);
+    line-height: calc(17 / 14);
+
+    margin-top: 102px;
+
+    color: var(--all-color-h);
+}
+
+.hero-h1 {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: calc(55 / 45);
+
+    margin-top: 19px;
+
+    color: var(--all-color-h);
+}
+
+.paragraf {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+
+    margin-top: 24px;
+    width: 400px;
+    min-height: 120px;
+
+
+    color: var(--all-color-p);
+}
+
+.hero-h3 {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: calc(27 / 22);
+
+    margin-top: 40px;
+
+    color: var(--all-color-h);
+}
+
+.skils {
+    display: flex;
+    margin-top: 9px;
+}
+
+.skils-list {
+    color: var(--all-color-h);
+}
+
+.skils-list:hover {
+    color: var(--color-accent);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bord {
+    border-bottom: 1px dashed #A8A8A8;
+    width: 100px;
+    height: 10px;
+    margin: 0px 20px 8px 20px;
+}
+
+.marg-list {
+    margin-bottom: 8px;
+}
+
+.block {
+    display: block;
+}
+
+.podzagolovok {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+
+    margin-top: 12px;
+    color: var(--all-color-h);
+}
+
+.color-accent {
+    color: var(--color-accent);
+}
+
+.transpar {
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+
+    margin-top: 11px;
+
+    color: var(--color-transparent);
+}
+
+.free {
+    width: 509px;
+}
+
+.marg-top {
+    margin-top: 19px;
+}
+
+.marg-top:first-child {
+    margin-top: 8px;
+}
+
+.hiden-text {
+    list-style-type: disc;
+    margin-left: 20px;
+}
