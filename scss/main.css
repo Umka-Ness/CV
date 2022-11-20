@@ -9,6 +9,10 @@
   --color-cont: #ffffff;
 }
 
+body {
+  background-color: #E0FFFF;
+}
+
 h1,
 h2,
 h3,
