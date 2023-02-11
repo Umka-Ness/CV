@@ -166,8 +166,8 @@ li {
   font-size: 14px;
   line-height: 1.7142857143;
   margin-top: 24px;
-  width: 400px;
-  min-height: 120px;
+  width: 100%;
+  min-height: 20px;
   color: var(--all-color-p);
 }
 
@@ -204,12 +204,11 @@ li {
 .marg-list {
   margin-bottom: 8px;
 }
-.marg-list:nth-child(2) {
-  padding-top: 18px;
-}
 
 .block {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .podzagolovok {
