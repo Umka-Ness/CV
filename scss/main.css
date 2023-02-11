@@ -249,4 +249,9 @@ li {
 .hiden-text {
   list-style-type: disc;
   margin-left: 20px;
+}
+
+.contacts-ico {
+  max-width: 20px;
+  max-height: 20px;
 }/*# sourceMappingURL=main.css.map */
