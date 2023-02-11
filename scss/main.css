@@ -255,7 +255,7 @@ li {
   display: flex;
   max-width: 20px;
   max-height: 20px;
-  margin-right: 3px;
+  margin-right: 0px;
   fill: #808080;
 }
 
@@ -277,4 +277,23 @@ li {
 .contacts__link:hover .contacts-ico {
   fill: #2ca5e0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__link-whatsApp {
+  display: flex;
+  border: 2px solid var(--color-cont);
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.contacts__link-whatsApp:hover .contacts-ico {
+  fill: #26d113;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-links {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
