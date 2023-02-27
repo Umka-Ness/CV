@@ -140,7 +140,7 @@ li {
     color: var(--color-cont);
     &:hover {
         color: var(--color-accent);
-        cursor: pointer;
+        cursor: default;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
