@@ -1,16 +1,15 @@
 :root {
-  --color-accent: #FB6D3A;
-  --font-montserrat: "Montserrat",
-      sans-serif;
+  --color-accent: #fb6d3a;
+  --font-montserrat: "Montserrat", sans-serif;
   --all-color-h: #000000;
   --font-size-small: 14px;
   --all-color-p: #595959;
-  --color-transparent: #A8A8A8;
+  --color-transparent: #a8a8a8;
   --color-cont: #ffffff;
 }
 
 body {
-  background-color: #E0FFFF;
+  background-color: #e0ffff;
 }
 
 h1,
@@ -54,13 +53,13 @@ li {
 }
 
 .left {
-  background: #1E2939;
+  background: #1e2939;
   width: 370px;
   padding-bottom: 100px;
 }
 
 .right {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   width: 830px;
   padding-left: 88px;
@@ -136,6 +135,13 @@ li {
   cursor: default;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.hiden::marker {
+  color: var(--color-accent);
+}
+
+.hiden-white-bg::marker {
+  color: var(--color-accent);
+}
 
 .hero-h2 {
   font-family: var(--font-montserrat);
@@ -193,7 +199,7 @@ li {
 }
 
 .bord {
-  border-bottom: 1px dashed #A8A8A8;
+  border-bottom: 1px dashed #a8a8a8;
   width: 100px;
   height: 10px;
   margin: 0px 20px 8px 20px;
